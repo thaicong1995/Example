@@ -1,0 +1,47 @@
+1.ERD
+
+
+
+2.Quy trình dự án:
+
+- Git:
+	+ Main/Master: Mã nguồn để deploy môi trường sản phẩm
+	+ Dev: cho lập trình code và test.
+
+- Phát triển module mới:
+	+ Phân tích module: xác định module làm gì.
+	+ Tạo nhánh dev trên git để làm việc riêng cho tính năng đó.
+	+ Thiết kế và lập trình: phát triển mã nguồn.
+	+ Kiểm thử: kiểm thử các tính năng của module theo yêu cầu.
+	+ Merge: merge vào dev.
+
+	+ Cuối cùng merge main deploy.
+
+3.Kiểm thử
+    +Các loại chiến lược kiểm thử
+
+    +Kiểm thử đơn vị (Unit Testing): Kiểm tra từng thành phần hoặc hàm riêng lẻ để đảm bảo chúng hoạt động chính xác. Chủ yếu do lập trình viên thực hiện.
+
+    +Kiểm thử tích hợp (Integration Testing): Kiểm tra các module hoặc thành phần khi làm việc cùng nhau.
+
+    +Kiểm thử hệ thống (System Testing): Kiểm tra toàn bộ ứng dụng từ đầu đến cuối để xác nhận tính năng hoàn chỉnh.
+
+    +Kiểm thử chấp nhận (Acceptance Testing): Xác nhận phần mềm đáp ứng yêu cầu của người dùng và sẵn sàng triển khai.
+
+  -Kiểm thử module mới
+
+    +Xem xét yêu cầu: Hiểu rõ chức năng của module mới.
+
+    +Lập kế hoạch kiểm thử: Xác định các trường hợp kiểm thử bao phủ tính năng của module.
+
+    +Thiết lập môi trường kiểm thử: Đảm bảo rằng môi trường kiểm thử đã sẵn sàng.
+
+    +Thực hiện kiểm thử: Tiến hành kiểm thử đơn vị, kiểm thử tích hợp và hệ thống theo kế hoạch.
+
+    +Báo cáo lỗi và sửa lỗi: Ghi nhận các lỗi, làm việc với lập trình viên để sửa.
+
+    +Kiểm thử hồi quy: Đảm bảo các thay đổi mới không ảnh hưởng đến các chức năng khác.
+
+    +Xem xét và phê duyệt cuối cùng: Sau khi kiểm thử thành công, phê duyệt module để phát hành.
+
+
